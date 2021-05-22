@@ -119,14 +119,8 @@ class p3
                 String sem11 = scan.nextLine();
                 String branch11 = scan.nextLine();
                 String b = name11+"|"+usn11+"|"+sem11+"|"+branch11+"|";
-                int le = b.length();
-                String s1 = "-";
-                if(le<50)
-                {
-                    for(int j=le;j<=50;j++)
-                        b = b.concat(s1);
-                    pw.println(b);
-                }
+                pw.println(b);
+                
             }
             else
             {
