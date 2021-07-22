@@ -50,8 +50,7 @@ public class p2 {
         String usn = scan.nextLine();
         String sem = scan.nextLine();
         String branch = scan.nextLine();
-        PrintWriter pw = new PrintWriter(new FileOutputStream(new
-        File("student.txt"),true));
+        PrintWriter pw = new PrintWriter("student.txt");
         String b = name + "|" + usn + "|" + sem + "|" + branch + "|";
         int len = b.length();
         String s1 = "-";
