@@ -35,17 +35,18 @@ class p1
 
     void StdInput()
     {
-        String org, rev = "";
+        String org=" ", rev = "";
         int n;
         System.out.println("Enter the number of names to be Reversed");
         n = scan.nextInt();
         scan.nextLine();
         while(n!=0)
         {
-            System.out.println("Enter the name to be Reversed");
+            System.out.println("Enter the name to be Reversed:");
             org = scan.nextLine();
             rev= Rev_String(org);
             System.out.println("Reverse of entered string is: "+rev);
+            System.out.println();
             n=n-1;
         }
     }
